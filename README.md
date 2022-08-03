@@ -14,3 +14,4 @@ Files to create a somewhat nice GNU/Linux Desktop Experience
 - Neofetch
 - Kitty Terminal
 - Bumblebee-status (i3wm bar)
+- Neovim 
