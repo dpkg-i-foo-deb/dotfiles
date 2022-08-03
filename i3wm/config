@@ -31,8 +31,10 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 #Dpi stuff
 exec --no-startup-id xrandr --dpi 110 
-
-
+#Picom
+exec --no-startup-id picom
+#Nitrogen
+exec --no-startup-id nitrogen --restore
 default_border pixel 1
 default_floating_border pixel 1
 # Use pactl to adjust volume in PulseAudio.
