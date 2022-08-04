@@ -34,3 +34,5 @@ let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#hunks#enabled = 1
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
+
+set clipboard=unnamedplus
