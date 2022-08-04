@@ -17,7 +17,9 @@ Plug 'https://github.com/ryanoasis/vim-devicons'
 Plug 'https://github.com/neoclide/coc.nvim'
 Plug 'https://github.com/preservim/tagbar'
 Plug 'vim-airline/vim-airline-themes'
-
+Plug 'neoclide/coc.nvim', { 'branch': 'master', 'do': 'yarn install --frozen-lockfile' }
+Plug 'f-person/git-blame.nvim'
+Plug 'tpope/vim-fugitive'
 call plug#end()
 
 :colorscheme dogrun
@@ -28,4 +30,7 @@ nnoremap <C-n> :TagbarToggle<CR>
 
 
 let g:airline_theme='owo'
+let g:airline#extensions#branch#enabled = 1
+let g:airline#extensions#hunks#enabled = 1
+
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
