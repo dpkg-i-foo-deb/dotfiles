@@ -33,6 +33,8 @@ let g:airline_theme='owo'
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#hunks#enabled = 1
 
+:set guitablabel=\%t\ %M 
+
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 set clipboard=unnamedplus
