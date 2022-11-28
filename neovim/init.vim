@@ -17,8 +17,8 @@ Plug 'https://github.com/ryanoasis/vim-devicons'
 Plug 'https://github.com/neoclide/coc.nvim'
 Plug 'https://github.com/preservim/tagbar'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'neoclide/coc.nvim', { 'branch': 'master', 'do': 'yarn install --frozen-lockfile' }
 Plug 'tpope/vim-fugitive'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'f-person/git-blame.nvim'
 call plug#end()
 
