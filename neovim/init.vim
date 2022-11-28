@@ -18,8 +18,8 @@ Plug 'https://github.com/neoclide/coc.nvim'
 Plug 'https://github.com/preservim/tagbar'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'neoclide/coc.nvim', { 'branch': 'master', 'do': 'yarn install --frozen-lockfile' }
-Plug 'f-person/git-blame.nvim'
 Plug 'tpope/vim-fugitive'
+Plug 'f-person/git-blame.nvim'
 call plug#end()
 
 :colorscheme dogrun
