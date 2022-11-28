@@ -22,14 +22,14 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'f-person/git-blame.nvim'
 call plug#end()
 
-:colorscheme dogrun
+:colorscheme iceberg
 
 nnoremap <C-f> :NERDTreeRefresh<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-n> :TagbarToggle<CR>
 
 
-let g:airline_theme='owo'
+let g:airline_theme='minimalist'
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#hunks#enabled = 1
 
